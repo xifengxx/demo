@@ -1,0 +1,18 @@
+@media screen and (max-width: 1205px){
+	.w-notice .n-notice, .w-nav, .w-intro, .w-courses .wrap{
+		width:960px;
+	}
+	.w-intro .n-intro{
+		width: 271px;
+	}
+	.w-intro> .n-intro+.n-intro{
+		margin-left: 73.5px;
+	}
+	.w-office{
+		width:1296px;	
+	}
+	.w-courses .left,.w-courses .n-courses,.w-courses .page-index{
+		width: 735px;
+	}
+}
+

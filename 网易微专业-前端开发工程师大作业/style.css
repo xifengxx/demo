@@ -1,0 +1,529 @@
+* {margin:0;padding: 0}
+a,a:hover { text-decoration:none;}
+html,body { width: 100%;height: 100%;
+			overflow: auto;
+			font: normal 12px/1.4 "Microsoft YaHei","Arial","sans-serif";}
+ul,ol,li {list-style: none;}
+img{		border:none;}
+.clearfix:after,.clearfix:before{
+			content: ".";
+			display: block;
+			clear: both;
+			height: 0;
+			overflow: hidden;
+			visibility: hidden;
+}
+.t-inline {	text-overflow: ellipsis;
+			overflow: hidden;
+			white-space: nowrap;}	
+
+.w-notice { width: 100%;
+			height: 36px;
+			background: #f3f3f3;
+			margin:0 auto;}
+.w-notice .n-notice {
+			width: 1205px;
+			height: 100%;
+			margin:0 auto;}
+.w-notice p {
+			line-height: 36px}
+.w-notice a {color:#21a557;}
+.w-notice span {float: right;}
+.w-notice span i{
+			display: inline-block;
+			width: 9px;
+			height: 9px;
+			vertical-align: middle;
+			margin-right: 6px;
+			background: url('./img/icon-1.png') no-repeat -83px -1px;
+			cursor:pointer;}
+.my-login {	position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background:rgba(0,0,0,.5); 
+			z-index: 500;}
+.my-login .n-login {
+			position: fixed;
+			top: 50%;
+			left: 50%;
+			width: 390px;
+			height: 290px;
+			margin-left: -195px;
+			margin-top: -145px;
+			background-color: #fff;}
+.my-login .n-login i{
+			height: 20px;
+			display: inline-block;
+			width: 23px;
+			height: 22px;
+			vertical-align: middle;
+			margin-left: 363px;
+			background: url('./img/icon-1.png') no-repeat -135px -50px;
+			cursor:pointer;}			
+.my-login .n-login p{font-size: 18px;
+			line-height: 24px;
+			margin-bottom: 15px;
+			margin-left: 40px;}
+.my-login #tips{
+			font:normal 12px/1.4 "Microsoft YaHei","Arial","sans-serif";
+			color: red;
+			margin-bottom: 0;}
+.my-login form{margin-left: 40px;}
+.my-login input {width: 295px;
+			height: 45px;
+			margin-bottom: 15px;
+			border:1px sold #dfdfdf;}
+.my-login button {width: 295px;
+			height: 48px;
+			margin-top: 15px;
+			background:url('./img/icon-1.png') no-repeat 0 -77px; 
+			cursor: pointer;}
+
+
+.w-nav {	position: relative;
+			width: 1205px;
+			height: 90px;
+			margin:0 auto;
+			background: #fff;}
+.w-nav .n-nav{position: absolute;
+			height: 22px;
+			top: 50%;left: 0;
+			margin-top: -11px;}
+.w-nav .logo1 {
+			display: inline-block;
+			width: 70px;
+			height: 19px;
+			margin-right: 5px;
+			vertical-align: middle;
+			background:url('./img/icon-1.png') no-repeat 0 -24px;}
+.w-nav .n-nav h2{
+			display: inline-block;
+			height: 22px;
+			vertical-align: middle;
+			font:22px/22px "Hiragino Sans GB","Microsoft YaHei","Arial","sans-serif";
+				}			
+.w-nav .focus{display: inline-block;			
+			margin-left: 27px;	
+			vertical-align: middle;		
+			cursor: pointer;}
+.w-nav .focus i {
+			display: inline-block;
+			width: 54px;
+			height:21px;
+			margin-right:10px ;
+			vertical-align: middle;
+			background: url('./img/icon-1.png') no-repeat -78px -23px;}
+.w-nav .fun {font:12px/12px "宋体";
+			vertical-align: middle;}
+.w-nav .focus-2{display: inline-block;			
+			margin-left: 27px;
+			margin-right: 10px;			
+			height: 19px;
+			border: 1px solid #efefef;
+			font:12px/19px "宋体";
+			}
+.w-nav .focus-2 i {
+			display: inline-block;
+			width: 11px;
+			height: 9px;
+			margin-right:10px ;
+			margin-left: 5px;
+			vertical-align: middle;
+			background: url('./img/icon-1.png') no-repeat -111px -61px;}			
+.w-nav .focus-2 a{
+			color:#999;
+			margin-right: 5px;}
+.w-nav .focus-2 a:hover{color:#21a557;}
+.w-nav .n-nav2{
+			position: absolute;
+			height: 16px;
+			top: 50%;
+			right: 0;
+			margin-top: -8px;
+			vertical-align: middle;}
+.w-nav .n-nav2 a{
+			margin-right: 55px;
+			text-decoration: none;
+			vertical-align: middle;
+			font:16px/20px "Hiragino Sans GB","Microsoft YaHei","Arial","sans-serif";
+			color: black;
+}
+.w-nav .n-nav2 .n-nav2-list{
+			margin-right: 30px;
+			vertical-align: middle;
+}
+.w-nav .search {
+			display: inline-block;
+			width: 19px;height:19px;
+			margin-right:15px ;
+			vertical-align: middle;
+			background: url('./img/icon-1.png') no-repeat -1px 0;}
+.w-slider{margin:0 auto;}
+
+#slider{height: 460px;
+			position: relative;			
+			overflow: hidden;}
+#wrap{width:1652px;height:100%;
+	  		margin: 0 auto;
+			}
+#buttons{position: absolute;
+			height:20px;width:60px;
+			left:50%;
+			margin-left:-30px;
+			bottom: 20px;
+			z-index: 2;}
+#buttons span{cursor: pointer;
+			float: left;
+			width: 10px;
+			height: 10px;
+			border-radius: 50%;
+			background-color:#fff;margin: 5px; }
+#buttons .on{background: #333;}
+
+.w-intro {	position: relative;
+			width: 1205px;
+			margin:57px auto;
+			}
+.w-intro .n-intro{
+			float: left;
+			width: 344px;
+			}
+.w-intro> .n-intro+.n-intro{
+			margin-left: 79px;}
+.w-intro .n-intro i{
+			float: left;
+			display: block;
+			margin-right: 20px;
+			margin-top: 8px;
+			width: 80px;
+			height: 80px;}
+.w-intro .n-icon1{
+			background:url('./img/icon-1.png') no-repeat 0 -136px; }
+.w-intro .n-icon2{
+			background:url('./img/icon-1.png') no-repeat -83px -136px; }
+.w-intro .n-icon3{
+			background:url('./img/icon-1.png') no-repeat -166px -136px; }
+.w-intro .n-intro div{overflow: hidden;}
+.w-intro .n-intro h3{font-size: 22px;
+			line-height: 20px;
+			font-weight: normal;
+			margin-bottom: 18px; }
+.w-intro .n-intro p{font-size: 14px;
+			line-height: 24px;
+			margin-bottom: 30px; }
+.w-intro .n-intro a{font-size: 14px;
+			color: #39a030;}
+.w-intro .n-intro a:hover{
+			text-decoration: underline;}
+
+.w-office {	width: 1616px;
+			height: 220px;
+			margin: 0 auto;
+			overflow: hidden;}
+
+.w-office img{float: left;
+			margin-right: 4px;}
+.w-office .n-office{margin-right: 0px;}
+.w-courses {width: 100%;
+			background: #f8f8f8;}
+.w-courses .wrap{
+			width: 1205px;
+			margin: 0 auto;
+			padding: 81px 0;
+			}
+.w-courses .left{float: left;
+			width: 980px;
+			}
+.w-courses .k-tab{
+			width: 400px;
+			height: 50px;
+			box-shadow: 0 1px 1px #d4d3d3;
+			font-size: 0;
+			text-align: center;}
+.w-courses .k-tab li{
+			display: inline-block;
+			width: 200px;
+			height: 50px;
+			font-size: 20px;
+			line-height: 50px;
+			cursor: pointer;
+			background: #fff;}
+.w-courses .k-tab .k-tab-1 {
+			background: #39a030;
+			color:#fff;}
+
+.w-courses .n-courses {
+			float: left;
+			width: 980px;
+			padding-top: 28px;}
+.w-courses .card{display: inline-block;
+			position: relative;
+			width: 225px;
+			height: 228px;
+			box-shadow: 0 1px 1px #d4d3d3;
+			margin: 0 20px 20px 0;
+			background: #fff;}
+.w-courses .cardImg{padding: 1px;}
+.w-courses .cardImg img{margin-bottom: 8px;}
+.w-courses .cardInfo{
+			padding: 0 5px;
+			font:12px/1.4 "Microsoft YaHei","Arial","sans-serif";
+			 }
+.w-courses .courseName{width: 208px;
+			margin-bottom: 4px;}
+		
+.w-courses .learnerCount{
+			display: inline-block;
+			height: 16px;
+			margin-bottom: 7px;
+			margin-top: 8px;
+			color: #999;
+			vertical-align: middle;
+			padding: 0 3px;
+			border: 1px solid #bbb;
+			border-radius: 2px; }
+.w-courses .cardIcon{
+			display: inline-block;
+			width:10px;
+			height: 10px;
+			margin-right: 6px;
+			background:url('./img/icon-1.png') no-repeat -177px 0;} 
+.w-courses .price{color: #ff3f00;}
+
+/*此处为课程弹窗样式，需嵌套进上下文中*/
+.w-courses .cardDetail{display: none;}
+.w-courses .card:hover .cardDetail{
+			display: block;
+			position: absolute;
+			top:-10px;
+			left: -10px;
+			width: 480px;
+			height: 238px;
+			border:1px solid #ccc;
+			box-shadow: 0 1px 2px #ccc;
+			background: #fff;
+			z-index: 10;}
+.w-courses .cardDetail img{
+			float:left;
+			margin: 10px 20px 0 10px;}
+.w-courses .courseInfo{overflow: hidden;}
+.w-courses .title{
+			font-size: 18px;
+			margin-top: 10px;
+			margin-bottom: 10px;}
+.w-courses .c-count{
+			margin-left: 2px;
+			color: #666;
+			margin-bottom: 8px;}
+.w-courses .c-count p{
+			margin: 6px 0 6px;
+}
+.w-courses .c-description{position: absolute;
+			top: 156px;
+			bottom: 0;
+			width: 100%;
+			background-color: #f8f8f8;
+			overflow: hidden;
+			z-index: 50;}
+.w-courses .c-description p{
+			margin: 12px 20px;
+			font-size: 14px;
+			line-height: 22px;
+			color: #666;
+			overflow: hidden;}
+.w-courses .cardIcon{
+			display: inline-block;
+			width:10px;
+			height: 10px;
+			margin-right: 6px;
+			background:url('./img/icon-1.png') no-repeat -177px 0;} 
+
+.w-courses .left .page-index {
+			float: right;
+			margin: 10px 19px 120px 0;
+			text-align: right;}
+.w-courses .prev{
+			display: inline-block;
+			background:url('./img/icon-1.png') no-repeat -100px 0;
+			width: 30px;
+			height: 20px;
+			vertical-align: middle; 
+			cursor: pointer;}
+.w-courses .next{
+			display: inline-block;
+			background:url('./img/icon-1.png') no-repeat -136px 0;
+			width: 30px;
+			height: 20px;
+			vertical-align: middle; 
+			cursor: pointer;}
+.w-courses .page-index span{
+			font-size: 14px;
+			line-height: 20px;
+			display: inline-block;
+			width: 20px;
+			height: 20px;
+			text-align: center;
+			vertical-align: middle;
+			margin: 0 4px;
+			cursor: pointer;}
+.w-courses .page-index .page-on{
+			background-color: #9dd8b1;
+			color: #fff;}
+
+.w-courses .right{float: left;
+			width: 223px;
+			}
+.w-courses .movie{background-color: #fff;
+			box-shadow: 0 1px 1px #d4d3d3;}
+.w-courses .movie h3{font-size: 16px;
+			line-height: 55px;
+			font-weight: normal;
+			padding-left: 20px;
+			border-bottom: 1px solid #ddd;}
+.w-courses .movie-info {
+			height: 173px;
+			margin-left: 22px;
+			position: relative;}
+.w-courses .movie-info p {
+			font-size: 14px;
+			line-height: 22px;
+			color: #666;
+			padding: 18px 0 5px;}
+.w-courses .movie-info img{
+			display: inline-block;
+			cursor: pointer;}
+.w-courses .movie-info i{
+			position: absolute;
+			top: 76px;
+			left: 65px;
+			background:url('./img/icon-1.png') no-repeat -192px 0;
+			width: 46px;
+			height: 46px;
+			cursor: pointer;}
+.w-courses .mask{position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background:rgba(0,0,0,.5); 
+			z-index: 500;
+			}
+.w-courses .mask .video{position: fixed;
+			top: 50%;
+			left: 50%;
+			width: 956px;
+			height: 678px;
+			margin-left: -478px;
+			margin-top: -339px;
+			background: #fff;}
+.w-courses .mask p{font-size: 18px;
+			line-height: 24px;
+   			margin: 18px 0 18px 30px;}
+.w-courses .mask .close{
+			display: inline-block;
+			position: absolute;
+			top: 10px;
+			right: 10px;
+			width: 23px;
+			height: 22px;
+			background:url('./img/icon-1.png') no-repeat -135px -50px;
+			cursor: pointer;}
+.w-courses .mask .control{width: 890px;
+			height: 566px;
+			margin-left: 30px;
+			position: relative;}
+.w-courses .mask .control i{display: inline-block;
+			position: absolute;
+			left: 17px;
+			top: 380px;
+			width: 60px;
+			height: 60px;
+			background:url('./img/icon-1.png') no-repeat -240px 0;
+			cursor:pointer;}
+
+.w-courses .pop-list{
+			margin-top: 20px;
+			background-color: #fff;
+			box-shadow: 0 1px 1px #d4d3d3;}
+.w-courses .pop-list h3{font-size: 16px;
+			line-height: 55px;
+			font-weight: normal;
+			padding-left: 20px;
+			border-bottom: 1px solid #ddd;}
+.w-courses .n-pop {position: relative;
+			overflow: hidden;}
+.w-courses .pop-info {margin: 20px;}
+.w-courses .pop-info img{float: left;
+			margin-right: 12px;}
+.w-courses .pop-info .pop-des{
+			overflow: hidden;}
+.w-courses .pop-des p{font-size: 14px;
+			color: #333;
+			margin-bottom: 10px;
+			cursor: pointer;}
+.w-courses .pop-des span {display: inline-block;
+			}
+.w-courses .pop-des i {
+			display: inline-block;
+			}
+
+.w-footer {width: 100%;
+			height: 262px;
+			background: #2c3339;}
+.w-footer .n-footer {width: 1105px;
+			margin: 0 auto;}
+.w-footer .info{float: left;
+			width: 545px;
+			margin-top: 90px;}
+.w-footer .info div{
+			margin-bottom: 25px;}
+.w-footer .info .logo1{
+			display: inline-block;
+			width: 70px;height: 19px;
+			margin-right: 5px;
+			vertical-align: middle;
+			background:url('./img/icon-1.png') no-repeat 0 -24px;}
+.w-footer .info h2{
+			display: inline-block;
+			vertical-align: middle;
+			height: 25px;
+			font:22px/22px "Hiragino Sans GB","Microsoft YaHei","Arial","sans-serif";
+			color: #39a030;}
+.w-footer .info p{
+			font:12.5px/25px "Microsoft YaHei","Arial","sans-serif";
+			color: #fff;}
+
+.w-footer .links{
+			float: left;
+			width: 210px;
+			margin-top: 80px;
+			color: #fff;}
+.w-footer p {
+			font-size: 12.5px;
+			line-height: 25px;}
+.w-footer a {
+			display: block;
+			font-size: 14.58px;
+			line-height: 29px;
+			color: #fff;}
+.w-footer a:hover{
+			text-decoration: underline;}
+
+.w-footer .about-us {
+			float: left;
+			width: 135px;
+			margin-top: 80px;
+			color: #fff;}
+.w-footer .about-us i {display: inline-block;
+			width: 20px;
+			height: 16px;
+			margin-left: 8px;
+			vertical-align: middle;
+			background:url('./img/icon-1.png') no-repeat -43px -1px;}
+.w-footer .more {
+			float: left;
+			width: 165px;
+			margin-top: 80px;
+			color: #fff;}
