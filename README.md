@@ -18,4 +18,8 @@
 3. jQuery基础运用
 4. Ajax跨域解决方案（JSONP + CORS）
 
-
+### 案例3：瀑布流布局实现。
+#### 涉及技术点：
+1. HTML+CSS简单布局
+2. jQuery基础运用
+3.瀑布流布局实现3种方法：原生JS、jQuery、CSS3
