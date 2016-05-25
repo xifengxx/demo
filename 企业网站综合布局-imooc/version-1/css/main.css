@@ -1,0 +1,372 @@
+*{
+	margin:0;
+	padding: 0;
+	font-size: 12px;
+}
+body{
+	background-color: #f5f5f5;
+}
+.top{
+
+	width: 100%;
+	height: 27px;
+	background: url(../images/top_bg.jpg) repeat-x;
+}
+.top_content{
+	width: 1000px;
+	margin: 0 auto;
+}
+.top_content li{
+	list-style-image: url(../images/li_bg.gif);
+	float: right;
+	width: 70px;
+	line-height: 27px;
+}
+.top_content a:link,.top_content a:visited{
+	color: #8e8e8e;
+	text-decoration: none;
+}
+.top_content a:hover,.top_content a:active{
+	color:#900;
+	text-decoration: none;
+}
+
+.wrap{
+	width: 1000px;
+	margin: 0 auto;
+}
+.logo{
+	height: 80px;
+	background-color: #fff;
+}
+.logo_left{
+	width: 200px;
+	float: left;
+	line-height: 0;
+}
+.logo_right{
+	float: right;
+	width: 300px;
+	height: 28px;
+	margin-top: 30px;
+	color: #8e8e8e;
+}
+.logo_right img{
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.tel{
+	font-family:"微软雅黑";
+	font-size: 16px;
+	color:red;
+}
+.nav{
+	height: 40px;
+}
+.nav_left{
+	width: 10px;
+	background: url(../images/nav_left.jpg) no-repeat;
+}
+.nav_mid{
+	width: 980px;
+	background: url(../images/nav_bg.jpg) repeat-x;
+}
+.nav_right{
+	width: 10px;
+	background: url(../images/nav_right.jpg) no-repeat;
+}
+.nav_left,.nav_mid,.nav_right{
+	height: 40px;
+	float: left;
+}
+.nav_mid_left,.nav_mid_right{
+	float: left;
+}
+.nav_mid_left{
+	width: 680px;
+}
+.nav_mid_right{
+	width: 300px;
+}
+.nav_mid_left li{
+	float: left;
+	list-style: none;
+	width: 100px;
+	text-align: center;
+	line-height: 40px;
+
+}
+.nav_mid_left a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+	font-family: "微软雅黑";
+}
+.nav_mid_left a:hover{
+	text-decoration: none;
+	color: #ff0;
+	font-size: 16px;
+	font-family: "微软雅黑";
+}
+.search_text{
+	margin-top: 5px;
+	width: 190px;
+	height: 25px;
+	background: url(../images/search.jpg) no-repeat right center;
+	background-color:#fff;
+	padding-right: 25px;
+	border:1px solid #fff;
+}
+.ad{
+	height: 310px;
+	overflow: hidden;
+}
+.main{
+	height: 250px;
+	background-color: #fff;
+	margin-top: 5px;
+}
+.news{
+	width: 340px;
+	border:1px solid #e8e8e8;
+}
+.course{
+	width: 410px;
+	border:1px solid #e8e8e8;
+	margin: 0 7px;
+}
+.sidebar{
+	width: 230px;
+}
+.news,.course,.sidebar{
+	height: 250px;
+	float: left;
+}
+.title{
+	height: 35px;
+	border-bottom: 2px solid #e8e8e8;
+}
+.title_left{
+	width: 70%;
+	font-family: "微软雅黑";
+	font-size:14px;
+	font-weight: bold;
+	color:#786f66;
+	float: left;
+	line-height: 35px;
+	padding-left: 20px;
+}
+.title_right{
+	width: 15%;
+	float: right;
+	line-height: 35px;
+	text-align: right;
+	padding-right: 10px;
+}
+.title_right a{
+	text-decoration: none;
+	color: #999999;
+}
+.pic_news{
+	height: 80px;
+	margin-top: 10px;
+	line-height: 22px;
+}
+.pic_news img,.course_pic img{
+	float: left;
+	margin: 0 5px;
+}
+.pic_news a,.course_pic a{
+	color: #c00;
+	text-decoration: none;
+}
+.news_list{
+	margin-top: 20px;
+}
+.news_list li{
+	list-style: none;
+	background: url(../images/list.jpg) no-repeat;
+	padding-left: 10px;
+	margin: 8px;
+	border-bottom: 1px dotted #ccc;
+}
+.news_list a{
+	text-decoration: none;
+	color: #000;
+}
+.news_list a:hover{
+	text-decoration: none;
+	color: #f00;
+}
+.news_list span{
+	color: #999;
+	float: right;
+}
+.course_pic{
+	height: 120px;
+	margin-top: 10px;
+	line-height: 22px;
+}
+.course_type{
+	height: 37px;
+	width: 372px;
+	margin:20px auto;
+	background: url(../images/product_type_bg.jpg) no-repeat;
+}
+.course_type li{
+	list-style-type: none;
+	float: left;
+	line-height: 37px;
+	margin:0 15px;
+	text-align: center;
+}
+.video{
+	height: 185px;
+	border:1px solid #e8e8e8;
+}
+.video_content{
+	height: 150px;
+}
+.sidebar_ad{
+	height: 55px;
+	border:1px solid #e8e8e8;
+	margin-top: 10px;
+}
+.copyright{
+	width: 100%;
+	height: 200px;
+	background-color: #e8e8e8;
+	margin-top: 10px;
+	clear: both;
+}
+.copyright_content{
+	width: 1000px;
+	margin:0 auto;
+	padding-top: 20px;
+}
+.copyright_content li{
+	float: left;
+	list-style-type: none;
+	width: 200px;
+	background: url(../images/line.png) no-repeat right center;
+	text-align: center;
+	line-height: 30px;
+	font-family: "微软雅黑";
+	color: #999;
+}
+.copyright_content a{
+	text-decoration: none;
+	color:#999;
+	font-size: 18px;
+}
+.copyright_content li ul li{
+	font-size: 14px;
+}
+
+.list_main{
+	min-height: 350px;
+	_height: 350px;
+	background-color: #fff;
+	margin-top: 10px;
+}
+.news_type{
+	width: 220px;
+	height: 350px;
+	border:1px solid #e8e8e8;
+	float: left;
+}
+.list_box{
+	width: 770px;
+	min-height: 350px;
+	_height:350px;
+	border:1px solid #e8e8e8;
+	float: right;
+	background-color: #fff;
+}
+.news_type h2{
+	height: 35px;
+	line-height: 35px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #666;
+	background: url(../images/titile_bg.gif) repeat-x;
+	padding-left: 20px;
+
+}
+.news_type_content{
+	height: 365px;
+	background: url(../images/content_bg.gif) repeat-x;
+}
+.news_type_content li{
+	list-style-type: none;
+	height: 30px;
+	line-height: 30px;
+
+}
+.news_type_content li a{
+	text-decoration: none;
+	color: #666;
+	background: url(../images/li_bg.gif) no-repeat left center;
+	padding-left: 15px;
+	display: block;
+}
+.news_type_content li a:hover{
+	color: #009cdf;
+	background: url(../images/li_bg2.gif) no-repeat left center;
+	background-color: #f2f2f2;
+}
+.list_box h2{
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #666;
+	height: 35px;
+	line-height: 35px;
+	background: url(../images/type_bg.png) repeat-x;
+	padding-left: 20px;
+}
+.page{
+	height: 40px;
+	margin-top: 10px;
+	text-align: center;
+}
+.page a{
+	display: inline-block;
+	border:1px solid #e8e8e8;
+	text-decoration: none;
+	margin:5px;
+	padding:5px 10px;
+}
+.page a:link,.page a:visited{
+	color: #000;
+}
+.page a:hover,.page a:active{
+	color: #fff;
+	background-color: #f00;
+}
+
+
+.list_box h1{
+	font-family: "微软雅黑";
+	text-align: center;
+	font-size: 20px;
+	margin:10px 0;
+}
+.list_box_newsInfo{
+	color:#666;
+	text-align: center;
+	border-bottom: 1px dotted #666;
+}
+.list_box_newsContent{
+	font-size: 14px;
+	padding:20px;
+	line-height: 25px;
+	text-indent: 2em;
+}
+
+
+
+
+
+
+
+
