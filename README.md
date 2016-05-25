@@ -23,3 +23,12 @@
 1. HTML+CSS简单布局
 2. jQuery基础运用
 3.瀑布流布局实现3种方法：原生JS、jQuery、CSS3
+
+### 案例4：企业网站综合布局实战-imooc
+#### 涉及技术点：
+1. HTML + CSS 基本知识
+2. 清除浮动float
+3. 盒子模型
+4. 两列自适应布局、三列布局
+5. JavaScript+jQuery运用。
+6. 焦点图特效
